@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.main_container{
+    display: grid;
+    gap: 10px;
+    margin: 100px;
+}
+
+.person1_container{
+    padding: 45px;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    margin: 10px;
+    background-image: url(./images/qutation\ mark.svg);
+    background-repeat: no-repeat;
+    background-position-x: 400px;
+    background-size: 150px 150px;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+}
+
+.person_info{
+    display: flex;
+}
+
+.paragraph_container{
+    font-size: 17px;
+    color: hsl(0, 0%, 81%);
+    opacity: 0.9;
+    line-height: 25px
+}
+
+.person_info img{
+    border-radius: 50%;
+    height: 50px;
+    border: 2px solid hsl(0, 0%, 81%)
+}
+
+.person_id{
+    line-height: 5px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 500
+}
+
+.hobby{
+    color: hsl(0, 0%, 81%);
+    opacity: 0.9
+}
+
+.title_container h2{
+    color: white;
+    font-weight: 600
+}
+
+.person2_container{
+    padding: 45px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    margin: 10px;
+    grid-column: 2 span 1;
+    grid-row: 1 / span 1;
+}
+
+.person3_container{
+    padding: 45px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    grid-row: 2 / span 2;
+    grid-column: 1 span 1;
+}
+
+.person3_container .title_container h2{
+    color: black;
+}
+
+.person3_container .person_id{
+    color: black;
+}
+
+.person3_container .paragraph_container{
+    color: hsl(217, 19%, 35%)
+}
+
+.person3_container .hobby{
+    color: hsl(217, 19%, 35%)
+}
+
+.person4_container{
+    padding: 45px;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    margin: 10px;
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 2
+}
+
+.person4_container .person_info img{
+    border-color: hsl(263, 55%, 52%)
+}
+
+.person5_container{
+    padding: 45px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    grid-row: 1 / span 2;
+    grid-column: 5 / span 1
+}
+
+.person5_container .title_container h2{
+    color: black;
+}
+
+.person5_container .person_id{
+    color: black;
+}
+
+.person5_container .paragraph_container{
+    color: hsl(217, 19%, 35%)
+}
+
+.person5_container .hobby{
+    color: hsl(217, 19%, 35%)
+}
